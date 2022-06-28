@@ -1,9 +1,14 @@
 import React, { Component } from 'react';
 import { Button, View, Text , Image, TouchableOpacity} from 'react-native';
 import { createStackNavigator, createAppContainer } from 'react-navigation';
+import * as ScreenOrientation from 'expo-screen-orientation';
 import styles from './styles'; 
 
+
+// ScreenOrientation.lockAsync(ScreenOrientation.OrientationLock.LANDSCAPE_LEFT);
+
 export default class Homescreen extends Component {
+  
   render() {
     return (
       
@@ -11,7 +16,7 @@ export default class Homescreen extends Component {
       <Text style={styles.title}>Jogo da Memoria</Text>
       
       <View style={{ flex: 0,  flexDirection: 'row', flexWrap: 'wrap'}}>        
-        <TouchableOpacity style={styles.card} onPress={()=>{this.props.navigation.navigate('Desenhos')}}>
+        <TouchableOpacity style={styles.card} onPress={()=>{this.props.navigation.navigate('Desenhos'); }}>
           <Image
           style={styles.image}
           source={{uri: 'https://reactnative.dev/img/tiny_logo.png',}}      />
