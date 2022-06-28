@@ -9,8 +9,8 @@ const styles = StyleSheet.create({
   },
  
   card: {
-    height: 140,
-    width: 140,
+    height: 120,
+    width: 120,
     marginHorizontal: 30,
     marginTop: 20,
     marginBottom: 20
