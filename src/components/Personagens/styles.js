@@ -9,9 +9,9 @@ const styles = StyleSheet.create({
   },
  
   card: {
-    height: 140,
-    width: 140,
-    marginHorizontal: 30,
+    height: 100,
+    width: 100,
+    marginHorizontal: 10,
     marginTop: 20,
     marginBottom: 20
   },
@@ -34,9 +34,9 @@ const styles = StyleSheet.create({
     marginTop: 50,
   },
   image: {
-    width: 140,
-    height: 140,
-  
+    width: 100,
+    height: 100,
+    resizeMode: 'stretch',
   },
   text:{
     justifyContent: 'center',

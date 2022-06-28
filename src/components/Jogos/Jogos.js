@@ -6,7 +6,7 @@ import styles from './styles';
 
 // ScreenOrientation.unlockAsync()
 
-export default class Desenhos extends Component {
+export default class Jogos extends Component {
   render() {
     
     return (
@@ -18,71 +18,71 @@ export default class Desenhos extends Component {
         <TouchableOpacity style={styles.card}>
           <Image
           style={styles.image}
-          source={require('../../../assets/Leon.jpeg')}      />
+          source={require('../../../assets/Jogos/FallGuys.png')}      />
         </TouchableOpacity>
         <TouchableOpacity style={styles.card}>
         <Image
         style={styles.image}
-        source={require('../../../assets/Leon.jpeg')}     />
+        source={require('../../../assets/Jogos/FallGuys.png')}     />
       </TouchableOpacity>
         <TouchableOpacity style={styles.card} >
           <Image
           style={styles.image}
-          source={require('../../../assets/Edgar.png')} 
+          source={require('../../../assets/Jogos/StumbleGuys.png')} 
            />
         </TouchableOpacity>
         <TouchableOpacity style={styles.card} >
           <Image
           style={styles.image}
-          source={require('../../../assets/Edgar.png')}
+          source={require('../../../assets/Jogos/StumbleGuys.png')}
            />
         </TouchableOpacity>
         <TouchableOpacity style={styles.card} >
           <Image
           style={styles.image}
-          source={require('../../../assets/Poco.jpeg')}
+          source={require('../../../assets/Jogos/BrawlStars.png')}
                 />
         </TouchableOpacity> 
         <TouchableOpacity style={styles.card} >
         <Image
         style={styles.image}
-        source={require('../../../assets/Poco.jpeg')}
+        source={require('../../../assets/Jogos/BrawlStars.png')}
         />
       </TouchableOpacity> 
         <TouchableOpacity style={styles.card}>
           <Image
           style={styles.image}
-          source={require('../../../assets/EMZ.jpeg')}
+          source={require('../../../assets/Jogos/Roblox.png')}
           />
         </TouchableOpacity>
         <TouchableOpacity style={styles.card}>
         <Image
         style={styles.image}
-        source={require('../../../assets/EMZ.jpeg')}
+        source={require('../../../assets/Jogos/Roblox.png')}
               />
       </TouchableOpacity>
         <TouchableOpacity style={styles.card} >
           <Image
           style={styles.image}
-          source={require('../../../assets/Spike.jpeg')}
+          source={require('../../../assets/Jogos/SubwaySurfers.png')}
              />
         </TouchableOpacity>
         <TouchableOpacity style={styles.card}  >
           <Image
           style={styles.image}
-          source={require('../../../assets/Spike.jpeg')}
+          source={require('../../../assets/Jogos/SubwaySurfers.png')}
         />
           </TouchableOpacity>
         <TouchableOpacity style={styles.card} >
           <Image
           style={styles.image}
-          source={require('../../../assets/Shelly.jpeg')}
+          source={require('../../../assets/Jogos/PkXd.png')}
                 />
         </TouchableOpacity> 
         <TouchableOpacity style={styles.card} >
           <Image
           style={styles.image}
-          source={require('../../../assets/Shelly.jpeg')}
+          source={require('../../../assets/Jogos/PkXd.png')}
                 />
         </TouchableOpacity>        
       </View> 
